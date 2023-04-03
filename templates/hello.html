@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for film in films %}
+        <p>{{ film.id }}</p>
+        <h1>{{ film.title }}</h1>
+        <p>{{ film.release_date}}</p>
+    {% endfor %}
+{% endblock %}
