@@ -5,10 +5,10 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/venv" />
-      <excludeFolder url="file://$MODULE_DIR$/venv_flsk_prjct_02_apr" />
+      <excludeFolder url="file://$MODULE_DIR$/venv_flsk_prjct_02_ap" />
+      <excludeFolder url="file://$MODULE_DIR$/venv_flsk_prjct_02_ap" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (flask_project_02_apr_2023-TrQrr2Eo)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
