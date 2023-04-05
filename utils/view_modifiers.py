@@ -23,8 +23,7 @@ def response(*, mimetype: str = None, template_file: str = None):
                 model = dict()
 
             if template_file and isinstance(template_file, dict):
-                raise Exception(
-                    "Invalid return type {}, we expected a dict as the return value.".format(type(response_val)))
+                raise Exception(f"Invalid return type {type(response_val)}, we expected a dict as the return value.")
 
             if template_file:
                 response_val = flask.render_template(template_file, **response_val)

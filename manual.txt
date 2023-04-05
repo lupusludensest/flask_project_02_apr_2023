@@ -1,0 +1,4 @@
+https://github.com/pypa/pipenv
+pip install --user pipenv
+pip install flask
+pip install flask-sqlalchemy
