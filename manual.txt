@@ -9,3 +9,9 @@ deactivate
 npm i -g heroku
 pip freeze > requirements.txt
 pip install -r requirements.txt
+heroku --version
+npm install -g heroku
+heroku login
+heroku create flask-project-02-apr-2023
+git push heroku main
+
