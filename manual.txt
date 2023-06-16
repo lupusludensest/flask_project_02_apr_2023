@@ -7,7 +7,7 @@ pipenv install flask
 pipenv shell
 pipenv run
 pip install flask-sqlalchemy
-venv_flsk_prjct_02_apr\Scripts\activate
+venv\Scripts\activate
 deactivate
 create a Procfile wit web: gunicorn app:app
 npm i -g heroku
