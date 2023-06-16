@@ -9,7 +9,7 @@ pipenv run
 pip install flask-sqlalchemy
 venv\Scripts\activate
 deactivate
-create a Procfile wit web: gunicorn app:app
+create a Procfile with web: gunicorn app:app
 npm i -g heroku
 pip freeze > requirements.txt
 pip install -r requirements.txt
